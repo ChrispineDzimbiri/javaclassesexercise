@@ -9,7 +9,7 @@ package com.mycompany.school;
  * @author USER
  */
 public class Student extends Person {
-    String studentId;
+   String studentId;
     String course;
 
     Student(String name, int age, String gender, String studentId, String course) {
@@ -23,5 +23,5 @@ public class Student extends Person {
         super.displayDetails();
         System.out.println("Student ID: " + studentId);
         System.out.println("Course: " + course);
-    }
+    } 
 }
