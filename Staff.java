@@ -8,20 +8,20 @@ package com.mycompany.school;
  *
  * @author USER
  */
-public class Student extends Person {
-   String studentId;
-    String course;
+public class Staff extends Person {
+    String staffId;
+    String department;
 
-    Student(String name, int age, String gender, String studentId, String course) {
+    Staff(String name, int age, String gender, String staffId, String department) {
         super(name, age, gender);
-        this.studentId = studentId;
-        this.course = course;
+        this.staffId = staffId;
+        this.department = department;
     }
 
     @Override
     void displayDetails() {
         super.displayDetails();
-        System.out.println("Student ID: " + studentId);
-        System.out.println("Course: " + course);
-    } 
+        System.out.println("Staff ID: " + staffId);
+        System.out.println("Department: " + department);
+    }
 }
